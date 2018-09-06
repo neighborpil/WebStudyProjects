@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .red {
+            background: red;
+        }
+
+        .blue {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <ruby>
+        韓<rt>한</rt>
+        宮<rt>みや</rt>
+        本<rt>もと</rt>
+        A<rt>에이</rt>
+    </ruby>
+
+    <form action="#" method="get" name="signUp">
+        <label>이름 : </label><input type="text" name="name" value="" placeholder="이름을 입력하세요" /><br />
+        <input type="password" name="pass" value="" /><br />
+        <input type="file" name="file" value="" /><br />
+        <input type="checkbox" name="name" value="" /><br />
+
+        <input type="email" name="name" value="" /><br />
+        <input type="url" name="name" value="" /><br />
+        <label>넘버</label><input type="number" name="name" value="" pattern="\d*" /><br />
+        <input type="color" name="name" value="" /><br />
+        <label>0</label><input type="range" name="name" value="" min="0" max="100" /><label>100</label><br />
+
+        <label for="woman">woman</label>
+        <input type="text" name="woman" placeholder="asdf" />
+
+        <input type="submit" name="sub" value="확인" /><br />
+        <select name="asdf">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </form>
+    <video controls="controls">
+        <source src="file.mp4" type="video/mp4" />
+        <source src="file.webm" type="video/webm" />
+        <source src="file.ogv" type="video/ogg" />
+    </video>
+    <!--<embed src=""></embed>-->
+    <header>
+        header
+    </header>
+    <nav>
+        navbar
+    </nav>
+    <article>
+        article
+    </article>
+    <footer>
+        footer
+    </footer>
+
+    <table border="1">
+        <thead>
+            <tr class="red">
+                <th>header1</th>
+                <td>header2</td>
+                <td>header3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="blue">
+                <th>content1</th>
+                <td>content2</td>
+                <td>content3</td>
+            </tr>
+            <tr class="red">
+                <th colspan="3">content1</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="blue">
+                <td>content1</td>
+                <td>content2</td>
+                <td>content3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
